@@ -86,10 +86,11 @@ section .title::after{
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    background: #0d1b2a;
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: skyblue;
+    background: #1b263b;
 }
 .navbar .max-width{
     display: flex;
@@ -288,7 +289,7 @@ section .title::after{
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #111;
+    background: #0d1b2a;
 }
 .services .title::before,
 .teams .title::before{
@@ -301,7 +302,7 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: #1b263b;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -309,7 +310,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: #415a77;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -381,7 +382,7 @@ section .title::after{
     content: "who with me";
 }
 .teams .carousel .card{
-    background: #222;
+    background: #1b263b;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -389,7 +390,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: lightseagreen;
+    background: #415a77;
 }
 .teams .carousel .card .box{
     display: flex;
